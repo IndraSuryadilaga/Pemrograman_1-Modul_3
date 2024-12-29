@@ -2,10 +2,10 @@
 
 int main() {
     int nilai;
-    char grade, nama[40];
+    char grade;
 
-    printf("Masukan nilai : ");
-    scanf("%i", &nilai);
+    printf("Masukan nilai   : ");
+    scanf("%d", &nilai);
 
     if (nilai >= 80) {
         grade = 'A';}
@@ -18,8 +18,6 @@ int main() {
     else {
         grade = 'E';}
 
-    printf("Nilai\t\t: %i\n", nilai);
     printf("Grade anda\t: %c\n", grade);
-    
     return 0;
 }
